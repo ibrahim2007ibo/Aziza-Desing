@@ -1,0 +1,537 @@
+@media (min-width: 992px){
+.navbar-expand-lg {
+    flex-wrap: nowrap;
+    justify-content: flex-start;
+}
+.navbar-expand-lg .navbar-collapse {
+    display: flex!important;
+    flex-basis: auto;
+}
+.navbar-expand-lg .navbar-nav {
+    flex-direction: row;
+}
+.d-lg-none {
+    display: none!important;
+}
+.d-lg-none {
+    display: none!important;
+}
+
+
+}
+@media (min-width: 576px){
+.d-sm-flex {
+    display: flex!important;
+}
+.d-sm-none {
+    display: none!important;
+}
+header .section-top .navbar-brand {
+    margin-right: 0;
+}
+}
+
+@media screen and (max-width: 1199.99px){
+header .section-top .right-nav .change-mood-wrap .mood-info {
+    display: none;
+}
+}
+@media screen and (max-width: 990.99px){
+header #myMenu {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100vh;
+    background-color: rgba(0, 0, 0, .7);
+    z-index: 9999;
+    overflow-y: hidden;
+}
+header #myMenu .navbar-nav {
+    width: 60%;
+    height: 100%;
+    background-color: #323232;
+    position: absolute;
+    top: 0;
+    left: -100%;
+    overflow-y: scroll;
+    justify-content: center;
+}
+}
+
+@media screen and (max-width: 450px) {
+    .modal-header {
+        padding: 10px 20px;
+        margin: 0;
+    }
+    
+    .modal-content .btn-close {
+        right: 30px;
+        top: 17px;
+    }
+    
+    .inside-pages .title-page {
+        height: 300px;
+    }
+    
+    .ref-box {
+        width: calc(48% - 20px) !important;
+    }
+}
+
+
+@media only screen and (max-width:850px){
+    .ws_swipe_left ul li img{
+    margin-left:0!important;
+    width:100% !important;
+    display:none;
+    
+}
+}
+
+@media screen and (max-width: 400px) {
+    .inside-pages .full-content .gallery-row a {
+        width: calc(100% - 8px);
+    }
+    
+    .inside-pages .cat-content .team-member-wrap {
+        width: calc(100% - 20px);
+    }
+}
+@media screen and (max-width: 1199.99px) {
+    .inside-pages .full-content .gallery-row a {
+        width: calc(25% - 8px);
+    }
+    
+    .inside-pages .cat-content .team-member-wrap {
+        width: calc(25% - 20px);
+    }
+    
+    #call-to-action h3 {
+        font-size: 34px;
+    }
+    
+    #call-to-action .buttons .action-btn span {
+        font-size: 20px;
+    }
+    
+    header .section-top .right-nav .change-mood-wrap {
+        margin-right: 8px;
+    }
+    
+    header .section-top .right-nav .change-mood-wrap .mood-info {
+        display: none;
+    }
+    
+    main #wowslider-container1 .ws_images li .slide-title-wrap .slide-title,
+    main #wowslider-container1 .ws_images li .slide-title-wrap p {
+        width: 100%;
+        text-align: center;
+    } 
+    
+    .title {
+        font-size: 40px;
+    }
+    
+    .ref-box {
+        width: calc(16.66% - 20px) !important;
+    }
+}
+
+@media only screen and (max-width:772px){
+    main #wowslider-container1 img{
+        margin-left:0px !important;
+    }
+}
+@media screen and (max-width: 990.99px) {
+    .inside-pages .static-content:not(.services-full) img {
+        width: 100%;
+        height: 300px;
+    }
+    
+    .inside-pages .full-content .gallery-row a {
+        width: calc(33.33% - 8px);
+    }
+    
+    .inside-pages .cat-content .team-member-wrap {
+        width: calc(33.33% - 20px);
+    }
+    
+    .inside-pages .cat-content .project-box {
+        width: calc(100% - 50px);
+    }
+    
+    footer .section-top .social-media {
+        margin: 30px 0;
+    }
+    
+    #call-to-action h3 {
+        text-align: center;
+        margin-bottom: 30px;
+        padding: 0;
+    }
+    
+    header .section-top .navbar-brand {
+        order: 2;
+    }
+    
+    header .section-top .right-nav {
+        order: 3;
+    }
+    
+    header #myMenu {
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100vh;
+        background-color: rgba(0, 0, 0, .7);
+        z-index: 9999;
+        overflow-y: hidden;
+    }
+    
+    header #myMenu .navbar-nav {
+        width: 60%;
+        height: 100%;
+        background-color: #323232;
+        position: absolute;
+        top: 0;
+        left: -100%;
+        overflow-y: scroll;
+        justify-content: center;
+    }
+    
+    header .section-top #myMenu .navbar-nav .nav-item {
+        margin: 0;
+    }
+    
+    header .section-top #myMenu .navbar-nav .nav-item .nav-link {
+        color: #fff;
+        padding: 20px;
+        line-height: 18px;
+        font-size: 18px;
+        text-transform: uppercase;
+    }
+    
+    header .section-top .navbar-brand {
+        margin-right: 0;
+    }
+    
+    #advantages {
+        position: static;
+        padding: 50px 0 0 0;
+    }
+    
+    #services {
+        margin-top: 0;
+    }
+    
+    main #wowslider-container1 .ws_images li .slide-title-wrap .slide-title {
+        font-size: 40px;
+    }
+    
+    .advantage-row .advantage-box {
+        width: calc(50% - 18px);
+    }
+    
+    #about .about-box {
+        padding: 70px 30px;
+    }
+    
+    #about .about-box .img-wrap img {
+        height: 400px;
+    }
+    
+    .ref-box {
+        width: calc(21% - 20px) !important;
+    }
+    
+    #projects .projects-carousel-wrapper .custom-navs {
+        left: 30px;
+        width: calc(100% - 60px);
+        -webkit-transform: translateY(-50%);
+        transform: translateY(-50%);
+    }
+    
+    #projects .projects-carousel-wrapper .custom-navs button {
+        background-color: #c8c8c8;
+    }
+    header #myMenu {
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100vh;
+        background-color: rgba(0, 0, 0, .7);
+        z-index: 9999;
+        overflow-y: hidden;
+    }
+}
+
+
+@media screen and (max-width: 767.99px) {
+    .inside-pages .title-page {
+        height: 350px;
+    }
+    .ws_controls{
+        display: none !important;
+    }
+    .inside-pages .title-page h2 {
+        font-size: 24px;
+    }
+    
+    .inside-pages .cat-content .team-member-wrap {
+        width: calc(50% - 20px);
+    }
+    
+    header .section-bottom #myMenu1 .navbar-nav .nav-item {
+        margin: 12px;
+    }
+    
+    header .section-bottom #myMenu1 .navbar-nav .nav-item .nav-link {
+        line-height: 16px;
+        font-size: 16px;
+    }
+    
+    header .section-bottom .right-nav .order-btn {
+        padding: 8px 13px;
+        font-size: 13px;
+    }
+    
+    header .section-bottom .right-nav .order-btn img {
+        width: 20px;
+    }
+    header #myMenu .navbar-nav {
+        width: 80%;
+    }
+    header #myMenu .navbar-nav {
+        width: 80%;
+    }
+    
+    main #wowslider-container1 {
+        height: 450px !important;
+    }
+    
+    main #wowslider-container1 a.ws_next, 
+    main #wowslider-container1 a.ws_prev {
+        width: 40px;
+        height: 40px;
+        font-size: 16px;
+    }
+    
+    main #wowslider-container1 .ws_images li .slide-title-wrap .slide-title {
+        font-size: 34px;
+        line-height: 42px;
+    }
+    
+    .title {
+        font-size: 34px;
+    }
+    
+    #about .about-box {
+        display: block;
+        padding: 40px 30px 170px;
+    }
+    
+    #about .about-box .about-text {
+        width: 100%;
+        padding: 0;
+    }
+    
+    #about .about-box .img-wrap {
+        text-align: right;
+    }
+    
+    #about .about-box .img-wrap img {
+        height: 300px;
+    }
+    
+    #slogan .slogan-text p {
+        max-width: 90%;
+    }
+    
+    .ref-box {
+        width: calc(28% - 20px) !important;
+    }
+    
+    #projects .projects-carousel-wrapper {
+        width: 90%;
+        margin: 0 auto;
+    }
+    
+    #projects .projects-carousel-wrapper .custom-navs {
+        left: -15px;
+        width: calc(100% + 30px);
+    }
+    
+    #projects .projects-carousel-wrapper .custom-navs button.owl-prev {
+        left: 0;
+    }
+    
+    #projects .projects-carousel-wrapper .custom-navs button.owl-next {
+        right: 0;
+    }
+}
+
+
+@media screen and (max-width: 575.99px) {
+    .modal-dialog {
+        width: 90%;
+        margin: 0 auto;
+    }
+    
+    .modal-body {
+        padding: 0 20px 20px;
+    }
+    
+    .modal-title {
+        font-size: 18px;
+    }
+    
+    .modal-header {
+        padding: 10px 40px;
+        margin: 0 auto;
+    }
+    
+    .inside-pages .static-content {
+        font-size: 16px;
+    }
+    
+    .inside-pages .contact-box:nth-child(2) {
+        border: none;
+    }
+    
+    #map {
+        height: 350px;
+    }
+    
+    footer .section-top {
+        padding-top: 30px;
+    }
+    
+    #call-to-action {
+        padding: 60px 0;
+    }
+    
+    #call-to-action h3 {
+        font-size: 27px;
+    }
+    
+    #call-to-action .buttons .action-btn {
+        max-width: 100%;
+    }
+    
+    #call-to-action .buttons .action-btn:first-child {
+        margin: 0 0 15px;
+    }
+    
+    #call-to-action .buttons .action-btn:last-child {
+        margin: 0;
+    }
+    
+    #call-to-action .buttons .action-btn span {
+        font-size: 18px;
+    }
+    
+    header #myMenu .navbar-nav {
+        width: 100%;
+    }
+    
+    header .section-bottom .right-nav {
+        display: flex;
+        align-items: center;
+        width: 100%;
+        justify-content: space-between;
+    }
+    
+    header .section-top .right-nav .change-mood-wrap {
+        margin-right: 0;
+    }
+    
+    header .section-top #myMenu .navbar-nav .nav-item .nav-link {
+        line-height: 16px;
+        font-size: 16px;
+    }
+    
+    main .ws_controls {
+        position: absolute;
+        bottom: 30px;
+        left: 50%;
+        transform: translateX(-50%);
+        display: flex;
+        z-index: 10;
+    }
+    
+    #wowslider-container1 a.ws_next {
+        order: 2;
+    }
+    
+    #wowslider-container1 a.ws_next,
+    #wowslider-container1 a.ws_prev {
+        position: static;
+        margin: 0 10px;
+    }
+    
+    .ref-box {
+        width: calc(38% - 20px) !important;
+    }
+    
+    #projects .projects-carousel-wrapper .custom-navs button {
+        width: 50px;
+        height: 50px;
+    }
+}
+
+
+@media screen and (max-width: 500px) {
+    .inside-pages .full-content .gallery-row a {
+        width: calc(50% - 8px);
+    }
+    
+    .project-box a .img-wrap {
+        height: 300px;
+    }
+    
+    .inside-pages .cat-content .team-member-wrap {
+        width: calc(60% - 20px);
+    }
+    
+    .inside-pages .title-page h2 {
+        font-size: 20px;
+        width: calc(100% - 30px);
+    }
+    
+    footer .section-bottom .copyright-row {
+        display: block;
+    }
+    
+    main #wowslider-container1 {
+        height: 400px !important;
+    }
+    
+    main #wowslider-container1 .ws_images li .slide-title-wrap .slide-title,
+    .title {
+        font-size: 28px;
+    }
+    
+    .advantage-row .advantage-box {
+        width: calc(100% - 18px);
+    }
+    
+    #about .about-box {
+        padding: 20px 30px 74px;
+    }
+    
+    #about .about-box .about-text p {
+        margin-bottom: 30px;
+    }
+    
+    #about .about-box .img-wrap img {
+        height: 160px;
+    }
+    
+    #slogan .slogan-text .more-btn {
+        width: 100%;
+        padding: 20px 0;
+    }
+}

@@ -1,0 +1,128 @@
+body.dark {
+    background-color: #000;
+}
+
+body.dark header .section-top .navbar-logo img {
+    filter: grayscale(100) brightness(100);
+}
+
+body.dark .light-text {
+    display: block;
+}
+
+body.dark .dark-text {
+    display: none;
+}
+
+body.dark .change-mood {
+    padding: 9px 10px;
+    border-radius: 5px;
+    box-shadow: 0 2px 14px -10px rgb(0 0 0 / 30%);
+    margin-left: 10px;
+    cursor: pointer;
+    background-color: #fff;
+}
+
+body.dark .icon {
+    display: block;
+    width: 16px;
+    height: 16px;
+    background-size: 16px;
+    background-image: url(../img/brightt.png);
+}
+
+
+body.dark header .section-top {
+    background-color: #000;
+}
+
+body.dark header .navbar-nav .nav-item .nav-link {
+    color: #fff;
+}
+
+body.dark header .right-nav .change-mood-wrap .mood-info {
+    color: #fff;
+}
+
+body.dark .lang-list li.active {
+    background-color: #fff;
+}
+
+body.dark .lang-list li a {
+    color: #000;
+}
+
+body.dark .lang-list li {
+    background-color: rgba(255, 255, 255, 0.9);
+}
+
+body.dark .lang-list li:hover {
+    background-color: white;
+}
+
+body.dark header .section-bottom {
+    background-color: #000;
+}
+
+body.dark header .section-bottom #myMenu1 .navbar-nav .nav-item .nav-link {
+    color: #fff;
+}
+
+body.dark .title {
+    color: #fff;
+}
+
+body.dark header .menu-wrapper {
+    background-color: white;
+}
+
+body.dark #services,
+body.dark #advantages {
+    background-color: #000;
+}
+
+body.dark #projects,
+body.dark #other-services {
+    background-color: #252323;
+}
+
+body.dark #about {
+    background-color: #000;
+}
+
+body.dark #references {
+    background-color: #000;
+}
+
+body.dark .ref-box {
+    background-color: #f2f4f6;
+    padding: 5px 0;
+}
+
+body.dark footer {
+    background-color: #000;
+}
+
+body.dark footer .section-top,
+body.dark footer .section-bottom {
+    background-color: #000;
+}
+
+body.dark footer .section-top h6,
+body.dark footer .footer-list li,
+body.dark footer .footer-list li a,
+body.dark footer .section-bottom .copyright-row {
+    color: #fff;
+}
+
+body.dark footer .section-bottom {
+    border-top: 1px solid #373737;
+}
+
+body.dark footer .section-top .change-lang-wrap .change-lang {
+    background-color: #000;
+}
+
+body.dark footer .section-top .change-lang-wrap .change-lang span {
+    color: #fff;
+}
